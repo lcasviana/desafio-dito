@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, head, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: rgb(239, 241, 253);
+    color: dimgrey;
+    display: flex;
+    font-family: "Calibri";
+    justify-content: center;
+}
+
+main {
+    align-items: center;
+    border-left: 2px solid rgb(216, 216, 216);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: fit-content;
+}
+
+.event {
+    display: flex;
+    margin: 16px 0 16px -15px;
+}
+
+.left {
+    display: flex;
+}
+
+.left div {
+    align-items: center;
+    display: flex;
+    height: fit-content;
+    margin-top: 10px;
+}
+
+.right {
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 lightgray;
+    display: flex;
+    overflow: hidden;
+    z-index: -1;
+}
+
+thead {
+    background: rgb(255, 255, 253);
+}
+
+tbody {
+    background: rgb(248, 248, 248);
+    font-size: 14px;
+}
+
+th {
+    font-weight: normal;
+    padding: 8px;
+    text-align: left;
+}
+
+tbody th, tbody td {
+    border-bottom: 1px solid #eee;
+}
+
+img {
+    margin-right: 4px;
+}
+
+.left div img:first-child {
+    margin-right: 0px;
+}
+
+img.arrow {
+    margin: 0;
+}
+
+.bold {
+    color: #666;
+    font-weight: bold;
+}
+
+thead tr th {
+    align-items: center;
+    padding-top: 16px;
+}
+
+tbody tr:last-child th {
+    padding-bottom: 16px;
+}
+
+tr th:first-child {
+    padding-left: 20px;
+}
+
+tr th:last-child {
+    padding-right: 20px;
+}
