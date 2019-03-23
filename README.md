@@ -35,3 +35,26 @@ baixados [por aqui](https://storage.googleapis.com/dito-questions/Front-End.zip)
 * Complexidade algorítmica;
 * Boas práticas de desenvolvimento de software;
 * Semelhança com o layout de exemplo.
+
+# Como executar?
+
+Primeiro você precisar ter o Node.js instalado. Se não tiver instalado, basta baixar a versão **LTS** do site https://nodejs.org/.
+
+**Como verificar se tenho?** Abra o terminal e execute o seguinte comando. Caso não seja apresentado a versão do Node.js, você terá que instalar.
+```
+node -v
+```
+
+Com o Node.js funcionando, abra um terminal na pasta do projeto e execute os seguintes comandos:
+```
+npm install -g cross-env
+npm install
+npm start
+```
+
+# Dúvidas?
+
+**Lucas Viana**
+
+* Email: lcasviana@gmail.com
+* Whatsapp/Telegram: +55 31 99731 7038
